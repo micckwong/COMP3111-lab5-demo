@@ -111,7 +111,8 @@ public class Controller {
     	}    	
     	labelCount.setText(Integer.toString(result.size()));
     	textAreaConsole.setText(output);
-    	
+		//add the following line
+		labelCount.setText("Hi");
     	
     }
     
